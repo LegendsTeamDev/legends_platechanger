@@ -1,0 +1,19 @@
+{
+    "title": "Change license plate",
+    "label": "New license plate",
+    "desc": "Min. 3, Max. 8 characters",
+    "lenght": "Maximum 8, minimum 3 characters",
+    "owner": "You are not the owner of this vehicle!",
+    "nearby": "You are not on the driver's seat",
+    "new_license_plate": "New license plate: ",
+    "same_plate": "This license plate is already taken",
+    "no_job": "You are not permitted to do this!",
+    "npc_buy_plate": "Buy License Plate",
+    "npc_buy_desc": "Purchase a license plate for $",
+    "npc_success": "You purchased a license plate for $",
+    "npc_no_money": "You don't have enough money in your bank account!",
+    "npc_already_have": "You already have a license plate in your inventory!",
+    "framework_detected": "Framework detected: ",
+    "target_system_detected": "Target system detected: ",
+    "inventory_system_detected": "Inventory system detected: "
+}

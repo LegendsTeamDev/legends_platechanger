@@ -1,0 +1,1 @@
+A little message from Legends Development: If you need help with installation of the script, integration or other stuff refer to our docs: https://docs.legendsrp.net or if you have questions or suggestions for this resource feel free to leave them in our discord: https://discord.gg/U5usNmmcSe

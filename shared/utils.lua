@@ -99,7 +99,20 @@ function Utils.Target.AddEntityTarget(entity, options)
     local targetSystem = Utils.GetTargetSystem()
 
     if targetSystem == 'ox_target' then
-        exports.ox_target:addLocalEntity(entity, options)
+        local oxOptions = {}
+        for _, option in ipairs(options) do
+            table.insert(oxOptions, {
+                name = option.name,
+                icon = option.icon,
+                label = option.label,
+                distance = option.distance,
+                canInteract = option.canInteract,
+                onSelect = function()
+                    TriggerEvent('legends_platechanger:client:BuyPlateFromNPC')
+                end
+            })
+        end
+        exports.ox_target:addLocalEntity(entity, oxOptions)
     elseif targetSystem == 'qb-target' then
         local qbOptions = {}
         for _, option in ipairs(options) do
